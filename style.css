@@ -35,16 +35,17 @@ li a {
     color: #ffffff;
     background-color: #569286;
 }
-  li a:hover {
-    background-color: rgba(0,0,0,0.5);
-  }
+li a:hover {
+  background-color: rgba(0,0,0,0.5);
+}
 
   
   
-  li a:hover {
-    background-color: #111;
-  }
-  .hobbies_list{display: flex;
+li a:hover {
+  background-color: #111;
+}
+.hobbies_list{
+  display: flex;
 }
 .hobbies_list li {
 	width: calc(100%/3);
@@ -54,4 +55,36 @@ li a {
 .hobbies_list li img {
   height: auto;
 	border:solid 1px #ccc; 
+}
+
+li.logo a {
+  display:block;
+  width:100px;
+  float:left;
+  margin-left:2px;
+
+  display: block;
+  padding: 8px;
+  color: #00000000;
+  background-color: #00000000;
+}
+
+h1.americanlife {
+  color:#008800;
+
+}
+
+h1.hobbies {
+  color:#812e80;
+}
+
+h1.family {
+  color:#e7b5c0;
+}
+
+h1.comparing {
+  color:#ea9e31
+}
+table.hobbiepics {
+  border-spacing: 30px;
 }
